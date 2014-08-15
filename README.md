@@ -1,7 +1,7 @@
 ## name of project
 ### Code Badges
-build status icon
-coverage status icon
+[![Build Status](https://travis-ci.org/zoeames/browser-games.svg)](https://travis-ci.org/zoeames/browser-games)
+[![Coverage Status](https://coveralls.io/repos/zoeames/browser-games/badge.png)](https://coveralls.io/r/zoeames/browser-games)
 
 ### About
 write a description about your project
