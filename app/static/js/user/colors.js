@@ -7,10 +7,10 @@
     $('#boxes').on('mouseenter', '.box', paintBackground);
   });
 
-function paintBackground(){
-  var color = $(this).css('background-color');
-  $('body').css('background-color', color);
-}
+  function paintBackground(){
+    var color = $(this).css('background-color');
+    $('body').css('background-color', color);
+  }
 
   function addBoxes(){
     var count = $('input[name=count]').val()*1;
@@ -28,7 +28,7 @@ function paintBackground(){
         blue  = Math.floor(Math.random()*256),
         alpha = Math.random(),
         str = 'rgba('+red+','+green+','+blue+','+alpha+')';
-  return str;
+    return str;
   }
 
 })();
