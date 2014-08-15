@@ -7,6 +7,8 @@
     $('#boxes').on('mouseenter', '.box', paintBackground);
   });
 
+
+
   function paintBackground(){
     var color = $(this).css('background-color');
     $('body').css('background-color', color);
